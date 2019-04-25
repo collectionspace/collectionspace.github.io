@@ -1,0 +1,8 @@
+# What to Expect
+
+RECOMMENDED: Automated installer for CollectionSpace
+We've created an Automated Installer for performing an unattended installation of CollectionSpace on selected Linux systems. Using the automated installer on a dedicated VPS or a VirtualBox server is the simplest and most reliable way to get a CollectionSpace instance installed and running.
+
+This guide will help you manually install CollectionSpace on a Linux server running a recent Ubuntu LTS release.  If you decide not to use the Automated Installer, you'll need to be *very* comfortable with the Linux bash shell and with using common Linux command-line tools to install and configure CollectionSpace.  You will also need to have an account on the targeted Ubuntu server that has elevated (i.e., sudo) privileges/permissions.
+
+After finishing the installation, you will have a fully functioning CollectionSpace instance that contains a working default "core" tenant/profile.  The "core" profile is a generic/general-purpose instance of CollectionSpace.  There are a handful of more domain-specific profiles that you can configure and use in CollectionSpace -see the demo site for more details at http://demo.collectionspace.org
